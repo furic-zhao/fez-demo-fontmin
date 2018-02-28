@@ -1,20 +1,18 @@
 # fez-demo-fontmin
+
 fez-demo-fontmin 是在网页中显示艺术/特殊字体的示例，适用于开发个性化的官方网站、活动专题，提升用户浏览体验。
 
 ## 开始使用
-#### 首先将fez-demo-fontmin下载到FEZ工程目录
+
 ```bash
+cd fez工程目录
 git clone git@github.com:furic-zhao/fez-demo-fontmin.git
-```
-#### 进入`fez-demo-fontmin`目录
 
-- 研发环境
-
-```bash
+cd fez-demo-fontmin
 gulp
 ```
 
-#### 使用FEZ开发框架在网页中使用特殊字体
+### 使用FEZ开发框架在网页中使用特殊字体
 
 - 下载原始字体文件存放在`src/static/ttf/`目录中
 - 收集网页中要显示特殊字体的文本
@@ -80,5 +78,3 @@ SentyTang.less
 
 - 实例DEMO
 [fez-demo-fontmin](http://www.hestudy.com/fontmin/)
-
-## 待续...
