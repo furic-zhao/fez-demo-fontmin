@@ -15,6 +15,14 @@ gulp
 ### 使用FEZ开发框架在网页中使用特殊字体
 
 - 下载原始字体文件存放在`src/static/ttf/`目录中
+
+```
+src
+└── static
+    └── ttf
+        └── SentyTang.ttf
+```
+
 - 收集网页中要显示特殊字体的文本
 - 将文本信息放在`fez.config.js`的`minfonts`字段中，比如：
 
@@ -30,15 +38,17 @@ export default {
 - 在项目的`src/static/fonts/`目录中会生成如下文件：
 
 ```
-SentyTang.eot
-SentyTang.svg
-SentyTang.ttf
-SentyTang.woff
-SentyTang.woff2
-SentyTang.less
+└── static
+    └── fonts
+        ├── SentyTang.eot
+        ├── SentyTang.scss
+        ├── SentyTang.svg
+        ├── SentyTang.ttf
+        ├── SentyTang.woff
+        └── SentyTang.woff2
 ```
 
-以上 样式(less)内容为：
+以上 样式(scss或less)内容为：
 
 ```
 @font-face {
