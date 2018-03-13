@@ -87,4 +87,4 @@ export default {
 > 更多开发帮助请参考[FEZ前端模块化工程开发框架](https://github.com/furic-zhao/fez)
 
 - 实例DEMO
-[fez-demo-fontmin](http://www.hestudy.com/fontmin/)
+[fez-demo-fontmin](http://www.hestudy.com/fez-demo-fontmin/)
